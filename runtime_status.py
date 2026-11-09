@@ -307,7 +307,7 @@ a{{color:#9ac4ff}}
 <section><h2>内存</h2>{memory_body}</section>
 <section><h2>磁盘</h2>{disk_body}</section></main>
 <p class="foot">公网出口 IP 通过 HTTPS 向固定的 api.ipify.org 查询；只发送 IP 查询请求，不发送环境或运行配置。查询失败时显示“不可用”。容量使用 1024 进位（1 GB = 1024 MB）；磁盘容量仅表示当前根挂载视图，不代表独享配额。</p>
-<p><a href="/api/status">查看 JSON 状态接口</a></p></body></html>'''
+<p><a href="/api/status">查看 JSON 状态接口</a> · <a href="https://github.com/mathowvan/box-runtime-status">源代码（GitHub）</a></p></body></html>'''
 
 
 class Handler(BaseHTTPRequestHandler):
